@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(233, 82, 114);
+    padding: 10px;
+    color: rgb(54, 53, 53);
+}
+
+.issue-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 82, 114);
+    padding: 80px;
+}
+.a-issue7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px;
+}
+.a-issue6-7:hover{
+    text-decoration: underline;
+}
+
+.h3-issue7 {
+    text-align: center;
+    padding-bottom: 15px;
+    color: antiquewhite;
+}
+
+img {
+    width: 450px;
+    padding-top: 55px;
+}
+.issue-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 30, 30);
+    padding: 80px;
+}
+.issue4-5{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+}
+.a-issue6{
+    text-decoration: none;
+    padding: 15px;
+}
+.a-issue6:hover{
+    text-decoration: underline;
+}
+.issue-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 204, 204);
+    padding: 80px;
+}
+.a-issue5{
+    color: antiquewhite;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.a-issue5:hover{
+    text-decoration: underline;
+}
+@media (max-width: 600px){
+    .issue-7,.issue-6,.issue-5,.issue-4,.issue-3,.issue-2,.issue-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.issue-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+    padding: 80px;
+    background-color: rgb(221, 79, 27);
+}
+.issue-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(223, 170, 24);
+    padding: 80px;
+    color: antiquewhite;
+}
+.issue3{
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.issue-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(35, 35, 224);
+    padding: 80px;
+}
+.issue-1{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(241, 29, 29);
+        padding: 80px;
+}
